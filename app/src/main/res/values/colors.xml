@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors (Teal theme matching design) -->
+    <color name="teal_primary">#00695C</color>
+    <color name="teal_primary_dark">#004D40</color>
+    <color name="teal_accent">#00796B</color>
+    <color name="teal_light">#E0F2F1</color>
+    <color name="teal_tag_text">#004D40</color>
+
+    <!-- Stat card colors -->
+    <color name="stat_card_bg">#00695C</color>
+    <color name="stat_card_subtext">#B2DFDB</color>
+
+    <!-- Warning / Low stock colors -->
+    <color name="warning_red">#D32F2F</color>
+    <color name="warning_bg">#FFEBEE</color>
+    <color name="warning_text">#C62828</color>
+
+    <!-- Button colors -->
+    <color name="btn_sell_orange">#EF6C00</color>
+    <color name="btn_delete_red">#D32F2F</color>
+
+    <!-- Neutral & Background colors -->
+    <color name="app_background">#F7F9FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#E0E0E0</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="input_border">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

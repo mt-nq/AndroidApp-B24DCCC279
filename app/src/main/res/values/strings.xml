@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quản lý kho hàng</string>
+
+    <!-- Login -->
+    <string name="login_title">Quản lý kho hàng</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="label_username">Tên đăng nhập</string>
+    <string name="hint_username">Nhập tên đăng nhập</string>
+    <string name="label_password">Mật khẩu</string>
+    <string name="hint_password">••••••</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="sample_account_hint">Tài khoản mẫu: admin / 123456</string>
+    <string name="error_empty_credentials">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="error_invalid_credentials">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <!-- Main -->
+    <string name="title_inventory">Kho hàng của tôi</string>
+    <string name="stat_title">Thống kê kho</string>
+    <string name="stat_products">Sản phẩm</string>
+    <string name="stat_total_value">Giá trị kho</string>
+    <string name="stat_low_stock">Sắp hết hàng</string>
+    <string name="section_product_list">Danh sách sản phẩm</string>
+    <string name="hint_click_to_view">(nhấn vào một sản phẩm để xem chi tiết)</string>
+    <string name="btn_add_product">+ Thêm sản phẩm</string>
+    <string name="tag_low_stock">Sắp hết hàng</string>
+    <string name="empty_product_list">Kho hàng chưa có sản phẩm nào</string>
+
+    <!-- Add Product -->
+    <string name="title_add_product">Thêm sản phẩm</string>
+    <string name="label_product_name">Tên sản phẩm</string>
+    <string name="hint_product_name">Ví dụ: Tai nghe Bluetooth</string>
+    <string name="label_product_price">Giá bán (VNĐ)</string>
+    <string name="hint_product_price">Chỉ nhập số, ví dụ: 250000</string>
+    <string name="label_product_quantity">Số lượng</string>
+    <string name="hint_product_quantity">Chỉ nhập số nguyên, ví dụ: 10</string>
+    <string name="label_product_category">Loại sản phẩm</string>
+    <string name="label_is_active">Đang kinh doanh</string>
+    <string name="label_product_desc">Mô tả</string>
+    <string name="hint_product_desc">Nhập mô tả (nhiều dòng)...</string>
+    <string name="btn_save_product">Lưu sản phẩm</string>
+
+    <!-- Detail Product -->
+    <string name="title_product_detail">Chi tiết sản phẩm</string>
+    <string name="label_stock_quantity">Số lượng tồn kho</string>
+    <string name="label_stock_value">Giá trị tồn kho</string>
+    <string name="btn_restock_one">+ Nhập thêm 1</string>
+    <string name="btn_sell_one">- Bán 1</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="btn_delete_product">Xóa sản phẩm</string>
+    <string name="confirm_delete_title">Xác nhận xóa</string>
+    <string name="confirm_delete_message">Bạn có chắc chắn muốn xóa sản phẩm này không?</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_cancel">Hủy</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg_circle_avatar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bg_circle_avatar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WarehouseManagement">
+
+        <!-- LoginActivity là màn hình khởi chạy đầu tiên -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity: Danh sách sản phẩm và thống kê kho -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- AddProductActivity: Thêm sản phẩm -->
+        <activity
+            android:name=".activity.AddProductActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- ProductDetailActivity: Chi tiết sản phẩm -->
+        <activity
+            android:name=".activity.ProductDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
